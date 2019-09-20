@@ -178,7 +178,7 @@ figure:hover > img {
 
 /******* T-IMAGE SECTION ******/
 #t-images .title {
-    margin-top: 30px;
+    margin-top: 60px;
     font-weight: bold;
     font-family:Arial;
     font-weight:600;
@@ -597,7 +597,7 @@ figure:hover > img {
 
 /* -- -responsive for small Screen such as mobile device, iPad, tablet and so on -----*/
 
-@media only screen and (min-width: 150px) and (max-width: 570px) {
+@media only screen and (min-device-width: 150px) and (max-device-width: 570px) {
     body {
         width: 100%;
         font-size: 80%;
@@ -643,7 +643,7 @@ figure:hover > img {
 }
 
 
-@media only screen and (min-width: 570px) and (max-width: 768px) {
+@media only screen and (min-device-width: 570px) and (max-device-width: 768px) {
     body {
         width: 100%;
         font-size: 40%;
@@ -690,14 +690,30 @@ figure:hover > img {
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
 
     .index-content .title h1 {
-        margin-top: 200px !important;
+        margin-top: 100px !important;
+    }
+}
+
+@media only screen and (min-device-width: 150px) and (max-device-width: 375px) {
+
+    .index-content .title h1 {
+        margin-top: 100px !important;
+
     }
 }
 
 
+/*----------------t-images Section------------*/
 
+@media only screen and (min-width: 150px) and (max-width: 460px) {
 
-
+    .t-images .title {
+        margin-top: 20px ;
+        font-weight: bold;
+        font-family: Arial;
+        font-weight: 300;
+    }
+}
 
 
 

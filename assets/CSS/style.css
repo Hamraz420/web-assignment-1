@@ -753,7 +753,7 @@ figure:hover > img {
 
     /*----------------Index-Content @media---------------*/
 
-    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    @media only screen and (min-width: 375px) and (max-width: 667px) {
 
         .index-content .title h1 {
             margin-top: 250px !important;
@@ -765,7 +765,7 @@ figure:hover > img {
         }
     }
 
-    @media only screen and (min-device-width: 150px) and (max-device-width: 375px) {
+    @media only screen and (min-width: 150px) and (max-width: 375px) {
 
         .index-content .title h1 {
             margin-top: 200px !important;
@@ -778,7 +778,7 @@ figure:hover > img {
     }
 
 
-    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    @media only screen and (min-width: 375px) and (max-width: 667px) {
 
         .index-content .subtitle h3 {
             text-align: center;
@@ -791,7 +791,7 @@ figure:hover > img {
         }
     }
 
-    @media only screen and (min-device-width: 150px) and (max-device-width: 375px) {
+    @media only screen and (min-width: 150px) and (max-width: 375px) {
 
         .index-content .subtitle h3 {
             text-align: center;

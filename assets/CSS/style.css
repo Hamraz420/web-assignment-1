@@ -178,7 +178,7 @@ figure:hover > img {
 
 /******* T-IMAGE SECTION ******/
 #t-images .title {
-    margin-top: 60px;
+    margin-top: 65px;
     font-weight: bold;
     font-family:Arial;
     font-weight:600;
@@ -711,10 +711,48 @@ figure:hover > img {
 
 @media only screen and (min-width: 375px) and (max-width: 667px) {
 
-    .t-images .title {
-        margin-top: 30px ;
+    #t-images .title {
+        margin-top: 40px ;
         font-weight: bold;
         font-family: Arial;
+        font-weight: 300;
+    }
+
+    #t-images .para1 {
+        font-size: 15px;
+    }
+
+    #t-images .para2 {
+        font-size: 15px;
+    }
+
+    #t-images .para3 {
+        font-size: 15px;
+    }
+
+    #t-images .para4 {
+        font-size: 15px;
+    }
+
+    #t-images .para5 {
+        font-size: 15px;
+    }
+
+    #t-images .para6 {
+        font-size: 15px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1331px) {
+
+    #t-images .title {
+        margin-top: 30px;
+        font-weight: bold;
+        font-family: Arial;
+        font-size: 30px;
         font-weight: 300;
     }
 
@@ -741,9 +779,43 @@ figure:hover > img {
     #t-images .para6 {
         font-size: 13px;
     }
-
 }
 
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    #t-images .title {
+        margin-top: 30px;
+        font-weight: bold;
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    #t-images .para1 {
+        font-size: 14px;
+    }
+
+    #t-images .para2 {
+        font-size: 14px;
+    }
+
+    #t-images .para3 {
+        font-size: 14px;
+    }
+
+    #t-images .para4 {
+        font-size: 14px;
+    }
+
+    #t-images .para5 {
+        font-size: 14px;
+    }
+
+    #t-images .para6 {
+        font-size: 14px;
+    }
+}
 
 
 

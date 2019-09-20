@@ -687,7 +687,7 @@ figure:hover > img {
     }
 }
 
-@media only screen and (min-device-width: 402px) and (max-device-width: 788px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
 
     .index-content .title h1 {
         margin-top: 200px !important;

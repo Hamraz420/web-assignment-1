@@ -636,7 +636,7 @@ figure:hover > img {
     #c-blocks .img5 .figure5 {
         width: auto;
         height: auto;
-        margin-right: 0px !important;
+        margin: 0px !important;
     }
 
     #c-blocks .img6 .figure6 {
@@ -656,14 +656,15 @@ figure:hover > img {
     #c-blocks .img1 .figure1 {
         width: auto;
         height: auto;
-        margin-left: 0px !important;
+        margin-right: 10px !important;
+        
     }
 
     #c-blocks .img2 .figure2 {
         width: auto;
         height: auto;
         margin-top:0px !important;
-        /*margin-right: 0px !important;*/
+        margin-right: 0px !important;
     }
 
     #c-blocks .img3 .figure3 {

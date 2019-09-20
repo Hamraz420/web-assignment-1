@@ -460,22 +460,7 @@ figure:hover > img {
 
 
 
-/*#c-blocks .figure {
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 5px;
-    margin-bottom: 0px;
-}*/
 
-
-/*#c-blocks .figcaption {
-    visibility: visible;
-}
-
-#c-blocks .figcaption:hover{
-
-    visibility:visible;
-}*/
 
 
     /*DataVisualisation PAGE 3*/
@@ -489,9 +474,7 @@ figure:hover > img {
     background-attachment: fixed;
 }
 
-/*.dataV-content{
-    position: relative;
-}*/
+
 
 #dataVisualisation-showcase::before {
     content: '';
@@ -504,26 +487,9 @@ figure:hover > img {
 }
 
 
-/*.dataV-content .title h1 {
-    text-align: center;
-    margin-top: 300px;
-    color: white;
-    font-size: 70px;
-    font-weight: 600;
-    font-family: Arial;
-}
 
-.dataV-content .subtitle h3 {
-    text-align: center;
-    margin-top: 45px;
-    color: white;
-    line-height: 1.5em;
-    font-size: 32px;
-    padding: 10px;
-    font-family: Arial;
-}*/
 
-/*WORLD MAP PAGE 4*/
+/******************WORLD MAP PAGE 4****************************/
 
 
 #worldMap-showcase {
@@ -535,25 +501,9 @@ figure:hover > img {
     background-attachment: fixed;
 }
 
-/*.worldMap-content .title h1 {
-    text-align: center;
-    margin-top: 300px;
-    color: white;
-    font-size: 70px;
-    font-weight: 600;
-    font-family: Arial;
-}
 
-.worldMap-content .subtitle h3 {
-    text-align: center;
-    margin-top: 45px;
-    color: white;
-    font-size: 32px;
-    padding: 10px;
-    font-family: Arial;
-}*/
 
-/*CONTACT PAGE 5*/
+/*****************CONTACT PAGE 5*********************/
 
 
 #contact-showcase {
@@ -575,28 +525,6 @@ figure:hover > img {
         height: 100%;
     }
 
-.contact-content{
-    position: relative;
-}
-
-.contact-content .title h1 {
-    text-align: center;
-    font-family: Arial;
-    margin-top: 300px;
-    color: #002AC3;
-    font-size: 70px;
-    font-weight: 600;
-}
-
-.contact-content .subtitle h3 {
-    text-align: center;
-    font-family: Arial;
-    margin-top: 45px;
-    color: #002AC3;
-    font-size: 32px;
-    padding: 10px;
-   
-}
 
 
 /*- -responsive for small Screen such as mobile device, iPad, tablet and so on -----*/ 
@@ -691,185 +619,302 @@ figure:hover > img {
 }
 
 
-/*----------------Index-Content @media---------------*/
+/*-----------C-Blocks-- Title and subtitle------ @media---------------*/
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
-
-    .index-content .title h1 {
-        margin-top: 250px !important;
-        text-align: center;
-        color: white;
-        font-size: 60px;
-        font-weight: 600;
-        font-family: Arial;
-    }
-}
-
-@media only screen and (min-device-width: 150px) and (max-device-width: 375px) {
-
-    .index-content .title h1 {
-        margin-top: 200px !important;
-        text-align: center;
-        color: white;
-        font-size: 50px;
-        font-weight: 500;
-        font-family: Arial;
-    }
-}
-
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
-
-    .index-content .subtitle h3 {
-        text-align: center;
-        margin-top: 30px;
-        color: white;
-        line-height: 1.5em;
-        font-size: 25px;
-        padding: 10px;
-        font-family: Arial;
-    }
-}
-
-@media only screen and (min-device-width: 150px) and (max-device-width: 375px) {
-
-    .index-content .subtitle h3 {
-        text-align: center;
-        margin-top: 25px;
-        color: white;
-        line-height: 1.5em;
-        font-size: 20px;
-        padding: 8px;
-        font-family: Arial;
-    }
-}
-
-
-/*----------------t-images Section------------*/
 
 @media only screen and (min-width: 375px) and (max-width: 667px) {
 
-    #t-images .title {
-        margin-top: 40px ;
+    #c-blocks .title {
+        margin-top: 20px;
         font-weight: bold;
         font-family: Arial;
+        font-size:25px;
         font-weight: 300;
     }
 
-    #t-images .para1 {
-        font-size: 15px;
+    #c-blocks .para1 {
+        font-display:auto;
+        font-size:12px;
     }
 
-    #t-images .para2 {
-        font-size: 15px;
+    #c-blocks .para2 {
+        font-display: auto;
+        font-size: 12px;
     }
 
-    #t-images .para3 {
-        font-size: 15px;
+    #c-blocks .para3 {
+        font-display: auto;
+        font-size: 12px;
     }
 
-    #t-images .para4 {
-        font-size: 15px;
+    #c-blocks .para4 {
+        font-display: auto;
+        font-size: 12px;
     }
 
-    #t-images .para5 {
-        font-size: 15px;
+    #c-blocks .para5 {
+        font-display: auto;
+        font-size: 12px;
     }
 
-    #t-images .para6 {
-        font-size: 15px;
+    #c-blocks .para6 {
+        font-display: auto;
+        font-size: 12px;
     }
-
 }
 
 
 
-@media only screen and (min-width: 992px) and (max-width: 1331px) {
+@media only screen and (min-width: 667px) and (max-width: 767px) {
 
-    #t-images .title {
-        margin-top: 30px;
-        font-weight: bold;
-        font-family: Arial;
-        font-size: 30px;
-        font-weight: 300;
-    }
-
-    #t-images .para1 {
-        font-size: 13px;
-    }
-
-    #t-images .para2 {
-        font-size: 13px;
-    }
-
-    #t-images .para3 {
-        font-size: 13px;
-    }
-
-    #t-images .para4 {
-        font-size: 13px;
-    }
-
-    #t-images .para5 {
-        font-size: 13px;
-    }
-
-    #t-images .para6 {
-        font-size: 13px;
-    }
-}
-
-
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-
-    #t-images .title {
-        margin-top: 30px;
+    #c-blocks .title {
+        margin-top: 20px;
         font-weight: bold;
         font-family: Arial;
         font-size: 30px;
         font-weight: 300;
     }
 
-    #t-images .para1 {
+    #c-blocks .para1 {
+        font-display: auto;
         font-size: 14px;
     }
 
-    #t-images .para2 {
+    #c-blocks .para2 {
+        font-display: auto;
         font-size: 14px;
     }
 
-    #t-images .para3 {
+    #c-blocks .para3 {
+        font-display: auto;
         font-size: 14px;
     }
 
-    #t-images .para4 {
+    #c-blocks .para4 {
+        font-display: auto;
         font-size: 14px;
     }
 
-    #t-images .para5 {
+    #c-blocks .para5 {
+        font-display: auto;
         font-size: 14px;
     }
 
-    #t-images .para6 {
+    #c-blocks .para6 {
+        font-display: auto;
         font-size: 14px;
     }
 }
 
 
 
+@media only screen and (min-width: 767px) and (max-width: 1346px) {
 
-/*canvas {
-    width: 100px;
-    height: 100px;
-    -webkit-transition: width 2s, height 4s;
-    transition: width 2s, height 4s;
-    background-color:black;
+    #c-blocks .title {
+        margin-top: 20px;
+        font-weight: bold;
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    #c-blocks .para1 {
+        font-display: auto;
+        font-size: 12px;
+    }
+
+    #c-blocks .para2 {
+        font-display: auto;
+        font-size: 12px;
+    }
+
+    #c-blocks .para3 {
+        font-display: auto;
+        font-size: 12px;
+    }
+
+    #c-blocks .para4 {
+        font-display: auto;
+        font-size: 12px;
+    }
+
+    #c-blocks .para5 {
+        font-display: auto;
+        font-size: 12px;
+    }
+
+    #c-blocks .para6 {
+        font-display: auto;
+        font-size: 12px;
+    }
 }
 
-    canvas:hover {
-        width: 300px;
-        height: 300px;
-        border-radius: 0 50px 0 50px;
-        border: 3px solid blue;
-        backface-visibility: visible;
-    }*/
+
+
+    /*----------------Index-Content @media---------------*/
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+
+        .index-content .title h1 {
+            margin-top: 250px !important;
+            text-align: center;
+            color: white;
+            font-size: 60px;
+            font-weight: 600;
+            font-family: Arial;
+        }
+    }
+
+    @media only screen and (min-device-width: 150px) and (max-device-width: 375px) {
+
+        .index-content .title h1 {
+            margin-top: 200px !important;
+            text-align: center;
+            color: white;
+            font-size: 50px;
+            font-weight: 500;
+            font-family: Arial;
+        }
+    }
+
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+
+        .index-content .subtitle h3 {
+            text-align: center;
+            margin-top: 30px;
+            color: white;
+            line-height: 1.5em;
+            font-size: 25px;
+            padding: 10px;
+            font-family: Arial;
+        }
+    }
+
+    @media only screen and (min-device-width: 150px) and (max-device-width: 375px) {
+
+        .index-content .subtitle h3 {
+            text-align: center;
+            margin-top: 25px;
+            color: white;
+            line-height: 1.5em;
+            font-size: 20px;
+            padding: 8px;
+            font-family: Arial;
+        }
+    }
+
+
+    /*----------------t-images Section------------*/
+
+    @media only screen and (min-width: 375px) and (max-width: 667px) {
+
+        #t-images .title {
+            margin-top: 40px;
+            font-weight: bold;
+            font-family: Arial;
+            font-weight: 300;
+        }
+
+        #t-images .para1 {
+            font-size: 15px;
+        }
+
+        #t-images .para2 {
+            font-size: 15px;
+        }
+
+        #t-images .para3 {
+            font-size: 15px;
+        }
+
+        #t-images .para4 {
+            font-size: 15px;
+        }
+
+        #t-images .para5 {
+            font-size: 15px;
+        }
+
+        #t-images .para6 {
+            font-size: 15px;
+        }
+    }
+
+
+
+
+    @media only screen and (min-width: 992px) and (max-width: 1331px) {
+
+        #t-images .title {
+            margin-top: 30px;
+            font-weight: bold;
+            font-family: Arial;
+            font-size: 30px;
+            font-weight: 300;
+        }
+
+        #t-images .para1 {
+            font-size: 13px;
+        }
+
+        #t-images .para2 {
+            font-size: 13px;
+        }
+
+        #t-images .para3 {
+            font-size: 13px;
+        }
+
+        #t-images .para4 {
+            font-size: 13px;
+        }
+
+        #t-images .para5 {
+            font-size: 13px;
+        }
+
+        #t-images .para6 {
+            font-size: 13px;
+        }
+    }
+
+
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+
+        #t-images .title {
+            margin-top: 30px;
+            font-weight: bold;
+            font-family: Arial;
+            font-size: 30px;
+            font-weight: 300;
+        }
+
+        #t-images .para1 {
+            font-size: 14px;
+        }
+
+        #t-images .para2 {
+            font-size: 14px;
+        }
+
+        #t-images .para3 {
+            font-size: 14px;
+        }
+
+        #t-images .para4 {
+            font-size: 14px;
+        }
+
+        #t-images .para5 {
+            font-size: 14px;
+        }
+
+        #t-images .para6 {
+            font-size: 14px;
+        }
+    }
+
+
+
+

@@ -708,11 +708,36 @@ figure:hover > img {
 @media only screen and (min-width: 150px) and (max-width: 460px) {
 
     .t-images .title {
-        margin-top: 20px ;
+        margin-top: 30px ;
         font-weight: bold;
         font-family: Arial;
         font-weight: 300;
     }
+
+    #t-images .para1 {
+        font-size: 13px;
+    }
+
+    #t-images .para2 {
+        font-size: 13px;
+    }
+
+    #t-images .para3 {
+        font-size: 13px;
+    }
+
+    #t-images .para4 {
+        font-size: 13px;
+    }
+
+    #t-images .para5 {
+        font-size: 13px;
+    }
+
+    #t-images .para6 {
+        font-size: 13px;
+    }
+
 }
 
 

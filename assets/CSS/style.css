@@ -1,0 +1,704 @@
+/*FONTS USED ON THE WEBSITE*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,500&display=swap');
+
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: gray !important;
+}
+
+
+
+#hero-showcase .navbar-default {
+    background-color: #0d0d0d !important;
+    border-color: #000000 !important;
+    
+}
+
+ #hero-showcase .navbar-default .navbar-brand {
+        color: white !important;
+    }
+
+    #hero-showcase .navbar-default .navbar-brand:hover {
+        color: #3B5998;
+    }
+
+
+
+#hero-showcase .navbar-default .navbar-brand  > li > a {
+        color: white !important;
+    }
+
+    /*#hero-showcase .navbar-default .navbar-brand .nav navbar-nav > li > a:hover{
+        color:blue !important;
+        background-color: transparent !important;
+    }
+
+    #hero-showcase .navbar-default .navbar-brand .nav navbar-nav > li > a::after :hover {
+        display:!important;
+    }*/
+
+
+
+/*Navigation Section*/
+
+.navbar-default .navbar-nav > li > a{
+    color: white !important;
+}
+
+.index-content {
+    position: relative;
+}
+
+.navbar-inverse .navbar-brand{
+    color: white !important;
+}
+
+    .navbar-inverse .navbar-brand:hover {
+        background-color: #1d7ac9 !important;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: white !important;
+    }
+
+    .navbar-inverse .navbar-nav > li > a:hover {
+        background-color: #1d7ac9 !important;
+    }
+
+
+.primary-nav-wrapper-outer {
+    display: block;
+    background-color: blue;
+    clear: both;
+    height: auto;
+}
+
+#hero-showcase {
+    background-image: url(../images/index-img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#hero-showcase::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #0d0d0d;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+
+}
+
+.index-content .title h1 {
+    text-align: center;
+    margin-top: 300px;
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: Arial;
+}
+
+.index-content .subtitle h3 {
+    text-align: center;
+    margin-top: 45px;
+    color: white;
+    line-height: 1.5em;
+    font-size: 32px;
+    padding: 10px;
+    font-family: Arial;
+}
+
+
+figcaption {
+    background: rgba(255,165,0, 0.6);
+    font-family: Arial;
+    text-align: center;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    padding-top: 1px;
+    visibility: hidden;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+figure:hover > figcaption {
+    visibility: visible;
+    /*background-color:dodgerblue;*/
+}
+
+
+/*Body*/
+
+
+figure {
+    position: relative;
+    align-items: center;
+}
+
+figcaption {
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    visibility: hidden;
+    color: white;
+}
+
+figure:hover > figcaption {
+    visibility: visible;
+}
+
+figure:hover > img {
+    filter: brightness(0.8);
+}
+
+/******* T-IMAGE SECTION ******/
+#t-images .title {
+    margin-top: 50px;
+    font-weight: bold;
+    font-family:Arial;
+    font-weight:600;
+}
+
+#t-images .para1 .para2 .para3 .para4 .para5 .para6 {
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    
+}
+
+#t-images .para1 {
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+#t-images .para2 {
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+#t-images .para3 {
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+#t-images .para4 {
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+#t-images .para5 {
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+#t-images .para6 {
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+/******** Button Styling *******/
+.main-button{
+    background-color: #404040;
+    color: white;
+    font-size: 20px;
+    border-radius: 30%;
+    padding: 7px;
+}
+
+.main-button:hover{
+    background-color: grey;
+    color: black;
+}
+
+/************ SECOND IMAGE STYLING **********/
+
+#second-background-img {
+    background-image: url(../images/second-img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/************ FOOTER SECTION ***************/
+
+
+/*
+    Multicoloured Hover Variations
+*/
+
+.social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+
+#social-fb:hover {
+    color: #3B5998;
+}
+
+#social-tw:hover {
+    color: #4099FF;
+}
+
+#social-gp:hover {
+    color: #d34836;
+}
+
+#social-em:hover {
+    color: #f39c12;
+}
+
+.text-center {
+    margin-top: 50px !important;
+    
+}
+
+.copyright-section{
+    margin-top: 10px;
+}
+
+
+
+#footer-section {
+    background-color: black;
+}
+
+    #footer-section h1 {
+        font-family: Arial;
+        color: white;
+        /*font-size:20px;*/
+    }
+
+    #footer-section p {
+        font-family: Arial;
+        color: white;
+    }
+
+    /*#footer-section p :hover{
+        font-family: 'Roboto', sans-serif;
+        color: black;
+    }*/
+
+
+    #footer-section .col-md-4 {
+        margin-top: 50px;
+       text-align: center;
+       
+    }
+
+    #footer-section .footer-text-highlight {
+        color: #7575f1;
+    }
+
+    #footer-section .text-center center-block {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #footer-section .footer-copyright-section {
+        margin-top: 20px;
+    }
+
+    #footer-section .nav > li > a:hover {
+        color: lightgray !important;
+        background-color: transparent !important;
+    }
+
+    
+
+
+#footer-section .nav > li > a::after:hover {
+    display: none !important;
+}
+
+    
+       /*MACHINE LEARNING PAGE 2*/
+
+#machine-showcase {
+    background-image: url(../images/machineLearning.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+  #machine-showcase::before {
+        content: '';
+        display: block;
+        position: absolute;
+        background-color: #0d0d0d;
+        opacity: 0.7;
+        width: 100%;
+        height: 100%;
+    }
+
+
+/*******C-block SECTION********Machine Learning Page*************/
+
+#c-blocks .title {
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: Arial;
+    font-weight: 600;
+    color: black;
+}
+
+#c-blocks .para1 .para2 .para3 .para4 .para5 .para6 {
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    
+}
+
+#c-blocks .para1 {
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-weight: 600;
+    color: black;
+}
+
+/*#c-blocks .para2 {
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+#c-blocks .para3 {
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+#c-blocks .para4 {
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+#c-blocks .para5 {
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+#c-blocks .para6 {
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-weight: 600;
+}*/
+
+
+
+
+/*#c-blocks .figure {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}*/
+
+
+/*#c-blocks .figcaption {
+    visibility: visible;
+}
+
+#c-blocks .figcaption:hover{
+
+    visibility:visible;
+}*/
+
+
+    /*DataVisualisation PAGE 3*/
+
+    #dataVisualisation-showcase {
+    background-image: url(../images/dataVisual.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.dataV-content{
+    position: relative;
+}
+
+#dataVisualisation-showcase::before {
+    content: '';
+        display: block;
+        position: absolute;
+        background-color: #0d0d0d;
+        opacity: 0.5;
+        width: 100%;
+        height: 100%;
+}
+
+
+.dataV-content .title h1 {
+    text-align: center;
+    margin-top: 300px;
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+    font-family: Arial;
+}
+
+.dataV-content .subtitle h3 {
+    text-align: center;
+    margin-top: 45px;
+    color: white;
+    line-height: 1.5em;
+    font-size: 32px;
+    padding: 10px;
+    font-family: Arial;
+}
+
+/*WORLD MAP PAGE 4*/
+
+
+#worldMap-showcase {
+    background-image: url(../images/mapImg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.worldMap-content .title h1 {
+    text-align: center;
+    margin-top: 300px;
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+    font-family: Arial;
+}
+
+.worldMap-content .subtitle h3 {
+    text-align: center;
+    margin-top: 45px;
+    color: white;
+    font-size: 32px;
+    padding: 10px;
+    font-family: Arial;
+}
+
+/*CONTACT PAGE 5*/
+
+
+#contact-showcase {
+    background-image: url(../images/ContactUs.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+    /*#contact-showcase::before {
+        content: '';
+        display: block;
+        position: absolute;
+        background-color: #0d0d0d;
+        opacity: 0.5;
+        width: 100%;
+        height: 100%;
+    }*/
+
+.contact-content .title h1 {
+    text-align: center;
+    font-family: Arial;
+    margin-top: 300px;
+    color: #002AC3;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.contact-content .subtitle h3 {
+    text-align: center;
+    font-family: Arial;
+    margin-top: 45px;
+    color: #002AC3;
+    font-size: 32px;
+    padding: 10px;
+   
+}
+
+
+/* -- -responsive for small Screen such as mobile device, iPad, tablet and so on -----*/
+
+@media only screen and (min-width: 150px) and (max-width: 570px) {
+    body {
+        width: 100%;
+        font-size: 80%;
+    }
+
+    #c-blocks .img1 .figure1 {
+        width: auto;
+        height: auto;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    #c-blocks .img2 .figure2 {
+        width: auto;
+        height: auto;
+        margin-right: 0px !important;
+    }
+
+    #c-blocks .img3 .figure3 {
+        width: auto;
+        height: auto;
+        margin: 0px !important;
+    }
+
+    #c-blocks .img4 .figure4 {
+        width: auto;
+        height: auto;
+        margin-left: 0px !important;
+     
+    }
+
+    #c-blocks .img5 .figure5 {
+        width: auto;
+        height: auto;
+        margin-right: 0px !important;
+    }
+
+    #c-blocks .img6 .figure6 {
+        width: auto;
+        height: auto;
+        margin: 0px !important;
+    }
+}
+
+
+@media only screen and (min-width: 570px) and (max-width: 768px) {
+    body {
+        width: 100%;
+        font-size: 40%;
+    }
+
+    #c-blocks .img1 .figure1 {
+        width: auto;
+        height: auto;
+        margin-left: 0px !important;
+    }
+
+    #c-blocks .img2 .figure2 {
+        width: auto;
+        height: auto;
+        margin-top:0px !important;
+        /*margin-right: 0px !important;*/
+    }
+
+    #c-blocks .img3 .figure3 {
+        width: auto;
+        height: auto;
+        margin: 0px !important;
+    }
+
+    #c-blocks .img4 .figure4 {
+        width: auto;
+        height: auto;
+        margin-left: 0px !important;
+    }
+
+    #c-blocks .img5 .figure5 {
+        width: auto;
+        height: auto;
+        margin-right: 0px !important;
+    }
+
+    #c-blocks .img6 .figure6 {
+        width: auto;
+        height: auto;
+        margin: 0px !important;
+    }
+}
+
+
+
+
+
+
+
+
+/*canvas {
+    width: 100px;
+    height: 100px;
+    -webkit-transition: width 2s, height 4s;
+    transition: width 2s, height 4s;
+    background-color:black;
+}
+
+    canvas:hover {
+        width: 300px;
+        height: 300px;
+        border-radius: 0 50px 0 50px;
+        border: 3px solid blue;
+        backface-visibility: visible;
+    }*/

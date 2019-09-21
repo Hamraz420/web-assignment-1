@@ -42,21 +42,13 @@ body {
         color: white !important;
     }
 
-    /*#hero-showcase .navbar-default .navbar-brand .nav navbar-nav > li > a:hover{
-        color:blue !important;
-        background-color: transparent !important;
-    }
-
-    #hero-showcase .navbar-default .navbar-brand .nav navbar-nav > li > a::after :hover {
-        display:!important;
-    }*/
-
 
 
 /*Navigation Section*/
 
 .navbar-default .navbar-nav > li > a{
     color: white !important;
+    font-size: 14px !important;
 }
 
 .index-content {
@@ -69,20 +61,23 @@ body {
 
     .navbar-inverse .navbar-brand:hover {
         background-color: #1d7ac9 !important;
+        font-size: 14px !important;
     }
 
     .navbar-inverse .navbar-nav > li > a {
         color: white !important;
+        font-size: 14px !important;
     }
 
     .navbar-inverse .navbar-nav > li > a:hover {
         background-color: #1d7ac9 !important;
+        font-size: 14px !important;
     }
 
 
 .primary-nav-wrapper-outer {
     display: block;
-    background-color: blue;
+    background-color:royalblue;
     clear: both;
     height: auto;
 }
@@ -279,7 +274,7 @@ figure:hover > img {
 
 .social {
     -webkit-transform: scale(0.8);
-    /* Browser Variations: */
+     /*Browser-Variations:*/ 
     -moz-transform: scale(0.8);
     -o-transform: scale(0.8);
     -webkit-transition-duration: 0.5s;
@@ -330,10 +325,10 @@ figure:hover > img {
         color: white;
     }
 
-    /*#footer-section p :hover{
+    #footer-section p :hover{
         font-family: 'Roboto', sans-serif;
         color: black;
-    }*/
+    }
 
 
     #footer-section .col-md-4 {
@@ -358,6 +353,7 @@ figure:hover > img {
     #footer-section .nav > li > a:hover {
         color: lightgray !important;
         background-color: transparent !important;
+        font-size: 14px !important;
     }
 
     
@@ -365,6 +361,7 @@ figure:hover > img {
 
 #footer-section .nav > li > a::after:hover {
     display: none !important;
+    font-size:14px !important;
 }
 
     

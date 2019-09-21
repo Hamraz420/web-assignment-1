@@ -666,10 +666,10 @@ figure:hover > img {
 @media only screen and (min-width: 767px) and (max-width: 1346px) {
 
     #c-blocks .title {
-        margin-top: 20px;
+        margin-top: 18px;
         font-weight: bold;
         font-family: Arial;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 300;
     }
 

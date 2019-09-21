@@ -417,48 +417,6 @@ figure:hover > img {
     color: black;
 }
 
-/*#c-blocks .para2 {
-    margin: 15px;
-    font-size: 20px;
-    font-family: Arial;
-    font-weight: bold;
-    font-weight: 600;
-}
-
-#c-blocks .para3 {
-    margin: 15px;
-    font-size: 20px;
-    font-family: Arial;
-    font-weight: bold;
-    font-weight: 600;
-}
-
-#c-blocks .para4 {
-    margin: 15px;
-    font-size: 20px;
-    font-family: Arial;
-    font-weight: bold;
-    font-weight: 600;
-}
-
-#c-blocks .para5 {
-    margin: 15px;
-    font-size: 20px;
-    font-family: Arial;
-    font-weight: bold;
-    font-weight: 600;
-}
-
-#c-blocks .para6 {
-    margin: 15px;
-    font-size: 20px;
-    font-family: Arial;
-    font-weight: bold;
-    font-weight: 600;
-}*/
-
-
-
 
 
 
@@ -720,32 +678,38 @@ figure:hover > img {
 
     #c-blocks .para1 {
         font-display: auto;
-        font-size: 12px;
+        font-size: 14px;
+        font-family: Arial;
     }
 
     #c-blocks .para2 {
         font-display: auto;
-        font-size: 12px;
+        font-size: 14px;
+        font-family: Arial;
     }
 
     #c-blocks .para3 {
         font-display: auto;
-        font-size: 12px;
+        font-size: 14px;
+        font-family: Arial;
     }
 
     #c-blocks .para4 {
         font-display: auto;
-        font-size: 12px;
+        font-size: 14px;
+        font-family: Arial;
     }
 
     #c-blocks .para5 {
         font-display: auto;
-        font-size: 12px;
+        font-size: 14px;
+        font-family: Arial;
     }
 
     #c-blocks .para6 {
         font-display: auto;
-        font-size: 12px;
+        font-size: 14px;
+        font-family: Arial;
     }
 }
 

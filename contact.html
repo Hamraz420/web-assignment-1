@@ -60,7 +60,7 @@
         <div class="container">
             <div class="index-content">
                 <div class="title">
-                    <h1>CONTACT US!</h1>
+                    <h1>CONTACT US</h1>
                 </div>
 
                 <div class="subtitle">
@@ -73,8 +73,6 @@
 
 
     <!----------------------Contact Section----------->
-
-
     <!--<div style="margin-top:15px;"></div>
     <section id="c-blocks">
         <div class="container-fluid">
@@ -101,68 +99,174 @@
 
 
 
+    <!------------Start----Section Details-----Contact Page--------->
+    <section class="mb-4" style="background-color:beige; padding: 25px; margin-top: 0px ">
+        <!--Section heading1-->
+        <h2 class="h1-responsive font-weight-bold-text-center my-4">About us</h2>
+        <!--Section description1-->
+        <p class="text-left w-responsive mx-auto mb-5">
+            This website has been built for development purposes which include home page plus four subpages. The content of website is about Data Science, Machine learning and other artificial intelligence. The author is Yasin Hamraz and the copyright is saved.
+        </p>
 
+        <!--Section heading2-->
+        <h2 class="h1-responsive font-weight-bold-text-center my-4">Contact us</h2>
+        <!--Section description2-->
+        <p class="text-left w-responsive mx-auto mb-5">
+            Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you as soon as possible to help you.
+        </p>
 
-            <section id="video-section">
-                <div class="container-fluid" style="margin-bottom: -15px;">
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
                     <div class="row">
 
-
-                        <div class="col-md-12" style="padding-left: 0px; padding-right: 0px;">
-                            <iframe width="100%" height="600px" src="https://www.youtube.com/embed/7g-IERcO_6g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
                         </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
 
                     </div>
-
-                </div>
-            </section>
-
-
-            <footer id="footer-section">
-                <div class="container-fluid">
+                    <!--Grid row-->
+                    <!--Grid row-->
                     <div class="row">
-                        <div class="col-md-4">
-                            <a href="index.html"><h1>Data Science</h1></a>
-
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
                         </div>
-
-                        <div class="col-md-4">
-                            <ul class="nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="machineLearning.html">Machine Learning</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="dataVisualisation.html">Data Visualisation</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="worldMap.html">World Map</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link btn" href="contact.html">Contact Us!</a>
-                                </li>
-                            </ul>
-
-                        </div>
-
-
-                        <div class="text-center center-block">
-
-                            <br />
-                            <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-                            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-                            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
-                            <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
-                        </div>
-
-                        <div class="copyright-section" style="text-align: center;">
-                            <span style="color:white;" class="copyright">&copy; Data Science, 2019 Yasin Hamraz</span>
-                        </div>
-
-
                     </div>
+                    <!--Grid row-->
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
                 </div>
-            </footer>
+                <div class="status"></div>
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <div class="col-md-3 text-center" style="margin-bottom:30px;">
+                <ul class="list-unstyled mb-0">
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>Canberra, Australia</p>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>+61 0481 682 700</p>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>contact@datascience.com.au</p>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+        </div>
+
+    </section>
+    <!------------End----Section Details-----Contact Page--------->
+
+
+
+
+    <!----------------Section Video-----Contact Page--------->
+
+    <section id="video-section">
+        <div class="container-fluid" style="margin-bottom: -15px;">
+            <div class="row">
+
+
+                <div class="col-md-12" style="padding-left: 0px; padding-right: 0px;">
+                    <iframe width="100%" height="600px" src="https://www.youtube.com/embed/7g-IERcO_6g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer id="footer-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="index.html"><h1>Data Science</h1></a>
+
+                </div>
+
+                <div class="col-md-4">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="machineLearning.html">Machine Learning</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dataVisualisation.html">Data Visualisation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="worldMap.html">World Map</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn" href="contact.html">Contact Us!</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <div class="text-center center-block">
+
+                    <br />
+                    <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                    <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                    <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                    <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                </div>
+
+                <div class="copyright-section" style="text-align: center;">
+                    <span style="color:white;" class="copyright">&copy; Data Science, 2019 Yasin Hamraz</span>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
 
 
 
